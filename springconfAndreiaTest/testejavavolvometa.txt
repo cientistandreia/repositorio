@@ -1,0 +1,29 @@
+Andréia Zanette
+ 
+Try to do as much as possible, don't give up if you cannot finish some of the items.
+- Create a skeleton application using Maven and Java 8
+- Configure a web application using Spring 4.2 and pure Java annotations configuration,
+compatible with Tomcat 7
+- Configure JPA2 with Hibernate and spring-data
+- Implement the following ORM:
+Department 1..* User
+User *..* Permission
+(Add the following attributes to all of the entities: id, name, description)
+- Configure JSF2 with Primefaces
+- Create JSF pages for list, create, update, delete, all of the 3 entities and relationships.
+- Implement a REST endpoint (using json) for Create/Read/Update/Delete (CRUD) Users
+- Add a JMS destination that can receive XML messages representing a Department, transform
+them to objects and persist in the database
+(Create you own message format, if needed)
+- Implement a good unit/integration test coverage
+- Explain what would be the changes needed to make the application work in JBoss
+- Create a documentation explaining all the necessary steps to execute/test your application
+
+
+I needed to change the server to execute in jboss, so first I installed the jars, plugin, 
+downloaded the version of eclipse to execute java8, and did the configurations asked.
+
+So I did the classes, the sql, implemented the methods to do the list  and the crud. 
+I did one Dao class to each entitie and one crud class to each entitie.
+
+ 
