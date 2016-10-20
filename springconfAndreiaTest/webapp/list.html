@@ -1,0 +1,79 @@
+ 
+<div id="crudList" class="${type.name}">
+	
+	<h2 id="crudListTitle">
+	{'crud.list.title', type.name</h2>
+ 
+	<div id="crudListSearch">
+		#{crud.search /}
+	</div>
+ 
+	<div id="crudListTable">
+		#{crud.table fields:['name'] /}
+	</div>
+	
+	<div id="crudListPagination">
+		#{crud.pagination /}
+	</div>
+	
+	<p id="crudListAdd">
+		<a href="@{blank()}">
+		{'crud.add', type.modelName}</a>
+	</p>
+</div>
+
+<div id="crudList" class="${type.description}">
+		<h2 id="crudListTitle">
+	{'crud.list.title',  type.description}</h2>
+ 
+	<div id="crudListSearch">
+		#{crud.search /}
+	</div>
+ 
+	<div id="crudListTable">
+		#{crud.table fields:[ 'description'] /}
+	</div>
+	
+	<div id="crudListPagination">
+		#{crud.pagination /}
+	</div>
+	
+	<p id="crudListAdd">
+		<a href="@{blank()}">
+		{'crud.add',  type.modelDescription}</a>
+	</p>
+</div>
+
+<div id="crudList" class="${type.id}">
+		<h2 id="crudListTitle">
+	{'crud.list.title', type.id}</h2>
+ 
+	<div id="crudListSearch">
+		#{crud.search /}
+	</div>
+ 
+	<div id="crudListTable">
+		#{crud.table fields:[ 'id'] /}
+	</div>
+	
+	<div id="crudListPagination">
+		#{crud.pagination /}
+	</div>
+	
+	<p id="crudListAdd">
+		<a href="@{blank()}">
+		{'crud.add',  type.modelId}</a>
+	</p>
+</div>
+
+#{crud.table fields:['name', 'description', 'id']}
+ 
+   #{crud.user 'user'}
+       <a href="@{User.show(object.user.id)}">
+       ${object.user.name},
+        ${object.user.description}      
+       
+       </a>
+   #{/crud.user}
+ 
+#{/crud.table}

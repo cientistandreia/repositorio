@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v7.0 ">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre1.8.0_102">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jsf-api.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jsf-impl.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Primefaces 5.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/primefaces-[version].jar"/>
+	<classpathentry kind="lib" path="C:/Users/CientistadaComputaçã/Documents/testevolvo/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CientistadaComputaçã/Documents/testevolvo/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CientistadaComputaçã/Documents/testevolvo/hibernate-commons-annotations-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CientistadaComputaçã/Documents/testevolvo/hibernate-core-4.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CientistadaComputaçã/Documents/testevolvo/hibernate-jpa-2.0-api-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CientistadaComputaçã/Documents/testevolvo/javassist-3.12.1.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CientistadaComputaçã/Documents/testevolvo/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CientistadaComputaçã/Documents/testevolvo/jboss-transaction-api_1.1_spec-1.0.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CientistadaComputaçã/Documents/testevolvo/jsf-api-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/CientistadaComputaçã/Documents/testevolvo/sqljdbc4-4.0.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>
